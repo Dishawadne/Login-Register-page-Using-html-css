@@ -1,0 +1,85 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    height: 100vh;
+
+
+    background-image: url(image.jpg);
+    background-size: cover;
+    
+ 
+  background-repeat: no-repeat;
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+    /* text-decoration: underline; */
+    font-variant: small-caps;
+  }
+  a{
+    /* text-decoration: none; */
+    text-align: center;
+    color: darkred;
+  }
+  p{
+    text-align: center;
+  }
+
+  .form {
+    justify-content: center;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    display: grid;
+    padding: 20px;
+    text-align: left;
+    /* background-color: rgb(150, 100, 143); */
+    background-color: burlywood;
+    
+
+
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  input {
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: 15px;
+    border-radius:5px ;
+  }
+
+  .btn {
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    border-color: white;
+    color:white;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: darkred;
+    color: black;
+    cursor: pointer;
+
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <form class="form">
+
+      <h1>Register</h1><br>
+      <label for="txtname">Enter Name :</label>
+      <input type="text" id="txtname" required pattern="[A-Za-z ]+"><br>
+
+
+      <label for="txtpassword">Enter Password :</label>
+      <input type="password" id="txtpassword" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"><br>
+
+      <label for="txtemail">Enter Email :</label>
+      <input type="email" id="txtemail" required><br>
+
+      <label for="txtno">Enter phone :</label>
+      <input type="tel" id="txtno" required pattern="[0-9]{10}"><br>
+
+
+      <button type="submit" class="btn">submit</button>
+      <div>
+<p> Do you have an Account?<p>
+
+<a href="login.html">Click Here</a>
+</div>
+    </form>
+
+  </div>
+</body>
+
+</html>
